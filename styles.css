@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+    --background-color: rgb(42, 116, 181);
+}
+
+body{
+    background-color: var(--background-color);
+    
+}
+
+#card{
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    text-align: center;
+    width: 25%;
+    border-radius: 1em;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+.cardColor{
+    border: solid 1px; 
+    width: 100%;
+    height: 10rem;           
+}
